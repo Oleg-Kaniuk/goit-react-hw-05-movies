@@ -35,7 +35,7 @@ const Cast = () => {
                         <p>Character: {character}</p>
                         <img src={profile_path ?
                         `http://image.tmdb.org/t/p/w185${profile_path}` :
-                        'https://www.braasco.com//ASSETS/IMAGES/ITEMS/ZOOM/no_image.jpeg'}
+                        'https://upload.wikimedia.org/wikipedia/commons/2/2f/No-photo-m.png'}
                         alt={name} width="100" height="150" />
                     </Item>)}
             </List> :
